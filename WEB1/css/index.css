@@ -1,0 +1,17 @@
+@import url(style.css);
+
+
+.header{
+    background-color: #ff000099;
+    height: 50px;
+}
+
+.cafe{
+    height: 480px;
+    background-color: aqua;
+}
+
+.rland{
+    height: 530px;
+    background-color: bisque;
+}
