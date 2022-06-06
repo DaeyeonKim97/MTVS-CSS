@@ -1,0 +1,7 @@
+@import url(../style.css);
+
+.header-welcome-bg-box{
+    height: 244px;
+    background: linear-gradient(rgba(255, 166, 0, 0.578), rgba(255, 255, 255, 0)) ,
+                url("../../images/1.jpg") no-repeat center/cover;
+}
