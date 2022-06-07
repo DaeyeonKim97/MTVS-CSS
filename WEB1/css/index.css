@@ -1,4 +1,11 @@
 @import url(style.css);
+@font-face {
+    font-family: "dykim";
+    src: url("../test.woff2");
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+
+/* --------------layout block--------------------- */
 
 .header-cafe-bg-box{
     background: url(../images/2.jpg) no-repeat center/cover #D4BFA0;
@@ -24,7 +31,8 @@
     height: 530px;
     background-image: linear-gradient(
         45deg,
-        red,blue, green
+        white 90%, aqua, rgba(0, 110, 255, 0.26)
+
     );
 }
 
@@ -54,4 +62,24 @@
 
 .footer{
 
+}
+
+/* --------------content block--------------------- */
+
+.header-title{
+    font-family: "Segoe UI", "굴림", "고딕" , "sans-serif";
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    font-style: italic;
+}
+
+.cafe-title{
+    /*font-style*/
+
+    /*box-style*/
+    background-color: rgba(0, 0, 0, 0.512);
+    width: 248px;
+    height: 45px;
+    border-radius: 20px;
 }
