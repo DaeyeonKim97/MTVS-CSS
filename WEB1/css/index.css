@@ -12,13 +12,15 @@
 }
 
 .header{
-    background-color: #ff000050;
+    background-color: #00000010;
     width: 100vw;
-    height: 5em;
+    height: 3em;
 
-    background-image: url(../images/star.png);
+    padding: 8px;
+
+    /* background-image: url(../images/star.png);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center; */
 
 }
 
@@ -76,10 +78,120 @@
 
 .cafe-title{
     /*font-style*/
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 26px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
 
     /*box-style*/
     background-color: rgba(0, 0, 0, 0.512);
     width: 248px;
     height: 45px;
-    border-radius: 20px;
+    border-radius: 0 20px 20px 0;
+}
+
+.top-menu{
+    padding: 31px 0;
+    width : 1000px;
+    background-color: rgba(255, 255, 255, 0.546);
+}
+
+    .top-menu>ul{
+        margin: 0;
+        padding: 0;
+        border: 1px solid blue;
+        overflow: hidden;
+    }
+        .top-menu li{
+            margin-left: 20px;
+            float:left;
+            list-style-type: none;
+            border: 1px solid red;
+            width: 100px;
+            height: 100px;
+        }
+
+        .top-menu li:first-child{
+            margin-left: 24px;
+        }
+
+            .top-menu li img{
+                width:100%;
+                height:100%;
+                object-fit: cover;
+            }
+
+            .top-menu li>a{
+                color: #fff;
+
+                width: 100%;
+                height: 100%;
+                border: 1px solid green;
+                background-color: rgba(0, 0, 0, 0.5);
+                text-align: center;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .top-menu li:hover> a{
+                position: relative;
+                top : -100%;
+            }
+
+/* --------------button contents--------------------- */
+
+.btn-cafe-menu-all{
+    /* font-style */
+    font-family: 'Segeo UI';
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+
+    /* block-style */
+    display: inline-block;
+    background-color: #D68814;
+    /* width: 83px;
+    height: 25px; */
+    padding: 3px 14px;
+    border-radius: 10px 0 10px 0;
+}
+
+.btn-rland-location{
+    /* text-style */
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: bolder;
+    color:white;
+    line-height: 40px;
+
+    /* content box style */
+    display: inline-block;
+    box-sizing: border-box;
+    width: 173px;
+    height: 40px;
+    padding-left: 40px;
+    background: rgba(110,152,9,0.65) 
+                url("../images/location.png")
+                no-repeat
+                left 15px center;
+
+}
+
+.btn-header-menu{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 80' width='40' height='40' fill='white'%3E%3Crect width='100' height='20'%3E%3C/rect%3E%3Crect y='30' width='100' height='20'%3E%3C/rect%3E%3Crect y='60' width='100' height='20'%3E%3C/rect%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    overflow: hidden;
+    text-indent: -999px;
 }
