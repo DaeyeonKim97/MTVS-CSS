@@ -8,26 +8,29 @@
 /* --------------layout block--------------------- */
 
 .header-cafe-bg-box{
-    background: url(../images/2.jpg) no-repeat center/cover #D4BFA0;
+    background: url(../images/2.jpg) no-repeat center/cover;
 }
 
-.header{
+/* .header{
+    
     background-color: #00000010;
-    width: 100vw;
+    width: 100%;
     height: 3em;
 
     padding: 8px;
 
-    /* background-image: url(../images/star.png);
-    background-repeat: no-repeat;
-    background-position: center center; */
+    position: sticky;
+    top: 0;
 
-}
+} */
 
 .cafe{
     height: 480px;
     background-color: rgba(110, 255, 255, 0.1);
+    position: relative;
 }
+
+    
 
 .rland{
     height: 530px;
@@ -36,6 +39,8 @@
         white 90%, aqua, rgba(0, 110, 255, 0.26)
 
     );
+    overflow: scroll;
+    background-attachment: scroll;
 }
 
 .spot{
@@ -90,6 +95,9 @@
     width: 248px;
     height: 45px;
     border-radius: 0 20px 20px 0;
+
+    /* content-layout */
+    
 }
 
 .top-menu{
@@ -141,6 +149,13 @@
                 position: relative;
                 top : -100%;
             }
+
+.rland-location{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
 
 /* --------------button contents--------------------- */
 
