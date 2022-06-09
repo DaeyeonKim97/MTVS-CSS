@@ -161,11 +161,16 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
+                /* top:0%; */
+                transition: 1s;
             }
 
             .top-menu li:hover> a{
                 position: relative;
-                top : -100%;
+                /* top : -100%; */
+                transform: translateY(-100%);
+
             }
 
 .cafe-menu-all{
@@ -179,7 +184,7 @@
 }
 
 /* ---rland-item--- */
-.rland-item{
+.rland>article{
     display: grid;
     grid-template-columns: 100px 1fr;
     grid-template-rows: 35px 65px;
